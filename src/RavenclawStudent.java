@@ -1,13 +1,13 @@
 import java.util.Objects;
 
-public class RavenclawStudent extends HogwartsStudent{
+public class RavenclawStudent extends HogwartsStudent {
     private int cleverness;
     private int wisdom;
     private int wit;
     private int creativity;
 
-    public RavenclawStudent(String name, int magic, int transgression, int cleverness, int wisdom, int wit, int creativity) {
-        super(name, magic, transgression);
+    public RavenclawStudent(int id, String name, int magic, int transgression, int cleverness, int wisdom, int wit, int creativity) {
+        super(id, name, magic, transgression);
         this.cleverness = cleverness;
         this.wisdom = wisdom;
         this.wit = wit;

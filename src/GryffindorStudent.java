@@ -1,14 +1,14 @@
 import java.util.Objects;
 
-public class GryffindorStudent extends HogwartsStudent{
+public class GryffindorStudent extends HogwartsStudent {
     private int nobility;
     private int honor;
     private int bravery;
 
-    public GryffindorStudent(String name,int magic, int transgression,int nobility,int honor, int bravery){
-        super(name, magic, transgression);
+    public GryffindorStudent(int id, String name, int magic, int transgression, int nobility, int honor, int bravery) {
+        super(id, name, magic, transgression);
         this.nobility = nobility;
-        this.honor =honor;
+        this.honor = honor;
         this.bravery = bravery;
     }
 

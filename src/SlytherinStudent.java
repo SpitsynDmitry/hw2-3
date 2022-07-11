@@ -1,14 +1,14 @@
 import java.util.Objects;
 
-public class SlytherinStudent extends HogwartsStudent{
+public class SlytherinStudent extends HogwartsStudent {
     private int cunning;
     private int determination;
     private int ambition;
     private int ingenuity;
     private int thirstForPower;
 
-    public SlytherinStudent(String name, int magic, int transgression, int cunning, int determination, int ambition, int ingenuity, int thirstForPower) {
-        super(name, magic, transgression);
+    public SlytherinStudent(int id, String name, int magic, int transgression, int cunning, int determination, int ambition, int ingenuity, int thirstForPower) {
+        super(id, name, magic, transgression);
         this.cunning = cunning;
         this.determination = determination;
         this.ambition = ambition;

@@ -1,12 +1,12 @@
 import java.util.Objects;
 
-public class HufflepuffStudent extends HogwartsStudent{
+public class HufflepuffStudent extends HogwartsStudent {
     private int diligence;
     private int loyalty;
     private int honesty;
 
-    public HufflepuffStudent(String name, int magic, int transgression, int diligence, int loyalty, int honesty) {
-        super(name, magic, transgression);
+    public HufflepuffStudent(int id, String name, int magic, int transgression, int diligence, int loyalty, int honesty) {
+        super(id, name, magic, transgression);
         this.diligence = diligence;
         this.loyalty = loyalty;
         this.honesty = honesty;
